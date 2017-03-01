@@ -1,4 +1,4 @@
-
+/*Roboto*/
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -73,5 +73,16 @@
   font-weight: 900;
   src: url('../fonts/Roboto/Roboto-BlackItalic.ttf');
 }
-
-
+/*LeagueGothic*/
+@font-face {
+  font-family: 'League Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/LeaguueGothic/LeagueGothic-Regular.otf');
+}
+@font-face {
+  font-family: 'League Gothic';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/LeaguueGothic/LeagueGothic-Italic.otf');
+}
