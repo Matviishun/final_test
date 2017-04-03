@@ -1,8 +1,38 @@
-body {
-  background: lightyellow;
-  color: red;
-  font-family: 'Roboto', sans-serif;
+@import 'less/header.css';
+@import 'less/creative.css';
+@import 'less/propose.css';
+@import 'less/feature.css';
+@import 'less/about.css';
+@import 'less/work.css';
+@import 'less/services.css';
+@import 'less/instaling.css';
+@import 'less/position.css';
+@import 'less/price.css';
+@import 'less/say.css';
+@import 'less/team.css';
+@import 'less/design.css';
+@import 'less/contact.css';
+@import 'less/footer.css';
+@import 'less/info.css';
+* {
+  -webkit-box-sizing: border-box;
+  /* Android ≤ 2.3, iOS ≤ 4 */
+  -moz-box-sizing: border-box;
+  /* Firefox ≤ 28 */
+  box-sizing: border-box;
+  /* Chrome, Firefox 29+, IE 8+, Opera, Safari 5.1 */
 }
-h1 {
-  font-family: 'League Gothic';
+.section {
+  text-align: center;
+  min-height: 400px;
+  font-family: Montserrat serif;
+  overflow: hidden;
+}
+.section-what-people-say {
+  background: #2e404d;
+  color: #ffffff;
+}
+.section-info {
+  background: #1c2b33;
+  color: white;
 }

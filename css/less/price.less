@@ -1,0 +1,117 @@
+.section-price-table {
+    .title1 {
+        font-family: 'Montserrat' sans-serif;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 40px;
+        color: #4e4e4e;
+        position: relative;
+        margin-bottom: 105px;
+        padding-top: 100px;
+    }
+    .title1:after {
+        left: 0;
+        right: 0;
+        bottom: -25px;
+        width: 75px;
+        height: 1px;
+        content: '';
+        margin: auto;
+        background: #18cfab;
+        position: absolute;
+    }
+    .title1:before {
+        left: 0;
+        right: -10px;;
+        margin: auto;
+        bottom: -29px;
+        width: 75px;
+        height: 1px;
+        content: '';
+        background: #18cfab;
+        position: absolute;
+    }
+    .size {
+        width: 25%;
+        padding: 0;
+        margin: 0;
+    }
+    .pricing-table{
+        background: #f8fcfe;
+        padding: 0;
+        margin-bottom: 100px;
+        .title2{
+        font-family: 'Montserrat' sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 1;
+        color: #717171;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        position: relative;
+        }   
+        li {
+            list-style-type: none;
+            border: solid 1px #e1e1e1;
+            width: 289px;
+            margin: 0 auto;
+            padding: 0;
+            width: 100%;
+        }
+        /* .offer {
+                padding: 0;
+                margin: 0;
+               img {
+                position: abolute;
+                z-index: 2;
+                margin-top: 0;
+                margin-right: 0;
+                padding: 0;
+            }
+        }*/
+        .cash {
+            background: #2e4a5b;
+            color: #ffffff;
+            font-family: 'Montserrat' sans-serif;
+            font-weight: bold;
+            font-size: 39px;
+            span {
+                font-family: 'Montserrat' sans-serif;
+                font-weight: light;
+                font-size: 13px;
+            }
+        }
+        .text {
+            font-family: 'Montserrat' sans-serif;
+            font-weight: normal;
+            font-size: 14px;
+            color: #777777;
+            line-height: 46px;
+        }
+        button {
+            border: solid 1px;
+            border-radius: 3px;
+            background: #2e4a5b;
+            color: #ffffff;
+            width: 170px;
+            height: 50px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        &:hover{
+            //cursor: pointer;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            .title2 {
+                color: #1fdab5;
+            }
+            .cash {
+                background: #18cfab;
+            }
+            button {
+                background: #18cfab;
+            }
+        }
+    }
+}

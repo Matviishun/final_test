@@ -1,0 +1,62 @@
+.section-feature {
+  background: #ffffff;
+  min-height: 450px;
+  padding: 100px 0;
+}
+.section-feature .title {
+  font-family: 'Montserat' sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  position: relative;
+  color: #4e4e4e;
+  margin-bottom: 120px;
+}
+.section-feature .title:after {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 75px;
+  height: 1px;
+  content: '';
+  margin: auto;
+  background: #18cfab;
+  position: absolute;
+}
+.section-feature .title:before {
+  left: 0;
+  right: -10px;
+  margin: auto;
+  bottom: -4px;
+  width: 75px;
+  height: 1px;
+  content: '';
+  background: #18cfab;
+  position: absolute;
+}
+.section-feature .col-6 {
+  min-height: 185px;
+}
+.section-feature .blok1 {
+  font-family: bold;
+  font-size: 18px;
+  text-align: left;
+}
+.section-feature .blok1 p {
+  display: inline-block;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.section-feature .blok1:hover {
+  color: #18cfab;
+  cursor: pointer;
+}
+.section-feature .blok1:active {
+  color: #18cfab;
+  cursor: pointer;
+}
+.section-feature .blok1-text {
+  color: #777777;
+  text-align: left;
+  line-height: 25px;
+  padding-right: 75px;
+}

@@ -1,0 +1,122 @@
+.section-about-our-company {
+  background: #090f14;
+  color: #f5f5f5;
+  min-height: 450px;
+  padding: 100px 0;
+}
+.section-about-our-company .title {
+  font-family: 'Montserat' sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  position: relative;
+  color: #fff;
+  margin-bottom: 105px;
+  text-align: left;
+}
+.section-about-our-company .title:after {
+  left: 110px;
+  bottom: -35px;
+  width: 75px;
+  height: 1px;
+  content: '';
+  background: #18cfab;
+  position: absolute;
+}
+.section-about-our-company .title:before {
+  left: 120px;
+  bottom: -39px;
+  width: 75px;
+  height: 1px;
+  content: '';
+  background: #18cfab;
+  position: absolute;
+}
+.section-about-our-company .menu {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  width: 655px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 70px;
+}
+.section-about-our-company .menu li {
+  color: #f5f5f5;
+  font-size: 16px;
+  line-height: 42px;
+  font-weight: bold;
+  margin-left: 10px;
+  border-top: solid 3px transparent;
+  position: relative;
+}
+.section-about-our-company .menu li:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: transparent;
+  top: 40px;
+  left: 0;
+}
+.section-about-our-company .menu li:after:hover:before {
+  background: #18cfab;
+}
+.section-about-our-company .menu li a {
+  color: #f5f5f5;
+  font-family: 'Montserrat', sans-serif;
+}
+.section-about-our-company .menu li a:hover {
+  text-decoration: none;
+  color: #18cfab;
+  border-top: solid 3px #18cfab;
+  padding-top: 10px;
+}
+.section-about-our-company .statistics {
+  text-align: left;
+  list-style-type: none;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+.section-about-our-company .statistics ul {
+  padding: 0;
+  margin: 0;
+}
+.section-about-our-company .statistics li {
+  list-style-type: none;
+  border: solid 1px #8e8f8f;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  padding-left: 18px;
+  position: relative;
+}
+.section-about-our-company .statistics li .progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #d2d2d2;
+}
+.section-about-our-company .statistics li .progress_violet {
+  background: #9c5da5;
+}
+.section-about-our-company .statistics li .progress_blue {
+  background: #11b0de;
+}
+.section-about-our-company .statistics li .progress_purpure {
+  background: #d67f7f;
+}
+.section-about-our-company .statistics li .progress_green {
+  background: #20bc9d;
+}
+.section-about-our-company .statistics li .progress_yellow {
+  background: #bb8a36;
+}
+.section-about-our-company .statistics li .text {
+  position: relative;
+  z-index: 2;
+}

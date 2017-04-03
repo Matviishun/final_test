@@ -1,0 +1,157 @@
+.section-work {
+    border-bottom: solid 2px #e1e1e1; 
+    background: #f8fcfe;
+    .title {
+        font-family: 'Montserrat' sans-serif;
+        font-size: 36px;
+        color: #4e4e4e;
+        line-height: 40px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        position: relative
+    }
+    .title:after {
+        left: 0;
+        right: 0;
+        bottom: -30px;
+        width: 75px;
+        height: 1px;
+        content: '';
+        margin: auto;
+        background: #18cfab;
+        position: absolute;
+    }
+    .title:before {
+        left: 0;
+        right: -10px;;
+        margin: auto;
+        bottom: -34px;
+        width: 75px;
+        height: 1px;
+        content: '';
+        background: #18cfab;
+        position: absolute;
+    }
+    .menu {
+        color: #717171;
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 70px;
+        }
+        li {
+            color: #717171;
+            list-style-type: none;
+            align-items: center;
+            transition: background 0.3s;
+            background: tranparent;
+            border: solid 1px #ebebeb;
+            position: relative;
+            padding: 25px 30px;
+            &:hover {
+                cursor: pointer;
+                background: #ebebeb;
+            }
+            &.active{ 
+                color: #18cfab;
+                text-decoration: none;
+                &:before{
+                    content: '';
+                    height: 2px;
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    background: #18cfab;
+                    top: -2px;
+                }
+            }
+            &:hover { 
+                color: #18cfab;
+                text-decoration: none;
+                &:before{
+                    content: '';
+                    height: 2px;
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    background: #18cfab;
+                    top: -2px;
+                }
+            }
+             &:active { 
+                 color: olive;
+                 &:before{
+                     background: olive;
+                 }
+             }
+        }
+   }
+   .design {
+       border: solid 1px #f0f4f5;
+       padding: 45px 75px 50px;
+       text-align: center;
+       position: relative;
+       &:hover {
+                cursor: pointer;
+            }
+            &.active{ 
+                color: #18cfab;
+                text-decoration: none;
+                &:before{
+                    content: '';
+                    height: 2px;
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    background: #18cfab;
+                    top: -1px;
+                }
+            }
+            &:hover { 
+                color: #18cfab;
+                text-decoration: none;
+                &:before{
+                    content: '';
+                    height: 2px;
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    background: #18cfab;
+                    top: -2px;
+                }
+            }
+
+       h3 {
+           color: #18cfab;
+           font-family: 'Montserrat' sans-serif;
+           font-weight: bold;
+           font-size: 14px;
+           line-height: 25px;
+       }
+       h4 {
+           color: #8a8a8a;
+           font-family: 'Montserrat' sans-serif;
+           font-style: light;
+           font-size: 12px;
+           line-height: 25px;
+       }
+   }
+   button {
+       width: 165px;
+       height: 60px;
+       border: solid 2px #18cfab; 
+       border-radius: 3px;
+       background: #18cfab;
+       margin-bottom: 100px;
+       margin-top: 70px;
+       font-size: 14px;
+       color: #ffffff;
+       text-align: center;
+       img {
+           padding-right: 15px;
+       }
+   }
+}

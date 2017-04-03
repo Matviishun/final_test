@@ -1,0 +1,167 @@
+.section-info .title {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-top: 137px;
+  margin-bottom: 65px;
+}
+.section-info .first {
+  text-align: left;
+}
+.section-info .first .title1 {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: normal;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 35px;
+  padding-top: 130px;
+}
+.section-info .first .title1 .blue-words {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #18cfab;
+}
+.section-info .first .text {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #b2b2b2;
+  margin-bottom: 80px;
+}
+.section-info .first .office {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #c0c0c0;
+  margin-bottom: 35px;
+}
+.section-info .first .office .strong {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #c0c0c0;
+}
+.section-info .second {
+  text-align: left;
+}
+.section-info .second .blok {
+  display: flex;
+  justify-content: row;
+  margin-bottom: 35px;
+}
+.section-info .second .box {
+  width: 75px;
+  height: 65px;
+  border: solid 1px #7d8081;
+  background: #959595;
+  margin-right: 15px;
+}
+.section-info .second .blok1 {
+  display: flex;
+  justify-content: row;
+  border: solid 1px #294453;
+  border-right: none;
+  border-left: none;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-bottom: 35px;
+}
+.section-info .second .text .name {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 0;
+}
+.section-info .second .text .text1 {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  color: #b2b2b2;
+}
+.section-info .second .text .date {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 30px;
+  color: #f1f1f1;
+}
+.section-info .second .text:hover .name {
+  color: #18cfab;
+  cursor: pointer;
+}
+.section-info .third {
+  text-align: left;
+}
+.section-info .third .all {
+  border-bottom: solid 1px #294453;
+  padding-bottom: 35px;
+}
+.section-info .third .menus .menu {
+  border: solid 1px #acacac;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 65px;
+  height: 35px;
+  padding-top: 5px;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #c2c0c0;
+}
+.section-info .third .menus .menu:hover {
+  background: #18cfab;
+  color: #ffffff;
+  border: solid 1px #18cfab;
+  cursor: pointer;
+}
+.section-info .third .blok .newslatter {
+  padding-top: 35px;
+  margin-bottom: 40px;
+}
+.section-info .third .blok .text {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #b4b4b4;
+  margin-bottom: 25px;
+}
+.section-info .third .blok .form1 {
+  width: 190px;
+  height: 40px;
+  margin-right: 0;
+  background: #22353f;
+  border: solid 1px #22353f;
+  padding-left: 10px;
+  color: #757575;
+  font-size: 14px;
+}
+.section-info .third .blok .button {
+  background: #294453;
+  color: #18cfab;
+  width: 40px;
+  height: 40px;
+  border: solid 1px #294453;
+  margin-left: -5px;
+  font-size: 14px;
+  margin-bottom: 130px;
+}
+.section-info .fourth {
+  text-align: left;
+}
+.section-info .fourth .box {
+  border: solid 1px #4e575b;
+  background: #959595;
+  width: 75px;
+  height: 75px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}

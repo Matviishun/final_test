@@ -1,0 +1,36 @@
+.section-services {
+  /*.panel-default {
+        display: flex;
+        justify-content: space-around;
+    }*/
+}
+.section-services .title {
+  color: #4e4e4e;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px;
+  position: relative;
+}
+.section-services .title:after {
+  left: 0;
+  right: 0;
+  bottom: -35px;
+  width: 75px;
+  height: 1px;
+  content: '';
+  margin: auto;
+  background: #18cfab;
+  position: absolute;
+}
+.section-services .title:before {
+  left: 0;
+  right: -10px;
+  margin: auto;
+  bottom: -39px;
+  width: 75px;
+  height: 1px;
+  content: '';
+  background: #18cfab;
+  position: absolute;
+}

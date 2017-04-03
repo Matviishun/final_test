@@ -1,0 +1,140 @@
+.section-team {
+  padding: 0;
+  margin: 0;
+}
+.section-team .title {
+  font-family: 'Montserrat' sans-serif;
+  font-weight: normal;
+  font-size: 36px;
+  color: #4e4e4e;
+  line-height: 40px;
+  position: relative;
+  margin-bottom: 110px;
+  padding-top: 100px;
+}
+.section-team .title:after {
+  left: 0;
+  right: 0;
+  bottom: -37px;
+  width: 75px;
+  height: 1px;
+  content: '';
+  margin: auto;
+  background: #18cfab;
+  position: absolute;
+}
+.section-team .title:before {
+  left: 0;
+  right: -10px;
+  margin: auto;
+  bottom: -41px;
+  width: 75px;
+  height: 1px;
+  content: '';
+  background: #18cfab;
+  position: absolute;
+}
+.section-team .sociality {
+  margin-bottom: 100px;
+}
+.section-team .sociality .photo {
+  width: 260px;
+  background: #8c9aa3;
+  height: 225px;
+  padding: 0;
+  margin: 0;
+}
+.section-team .sociality .photo img {
+  padding-top: 71px;
+  opacity: 0.5;
+}
+.section-team .sociality .Al {
+  padding: 0;
+  margin: 0;
+}
+.section-team .sociality .Liza {
+  padding: 0;
+  margin: 0;
+}
+.section-team .sociality .photo2 {
+  background: #dae9e6;
+  height: 225px;
+  width: 260px;
+}
+.section-team .sociality .Hasan {
+  padding: 0;
+  margin: 0;
+}
+.section-team .sociality .photo3 {
+  background: #ebebeb;
+  height: 225px;
+  width: 260px;
+}
+.section-team .sociality .Afifa {
+  padding: 0;
+  margin: 0;
+}
+.section-team .sociality .photo4 {
+  background: #e3fdf8;
+  height: 225px;
+  width: 260px;
+}
+.section-team .sociality .name {
+  width: 260px;
+  background: #2e4a5b;
+  text-align: left;
+  padding-left: 25px;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section-team .sociality .name h4 {
+  color: #ffffff;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 38px;
+}
+.section-team .sociality .name h5 {
+  color: #18cfab;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: light;
+  font-size: 13px;
+  line-height: 38px;
+}
+.section-team .sociality .social {
+  width: 260px;
+  display: flex;
+  flex-direction: row;
+  background: #2e4a5b;
+  padding: 0;
+  margin: 0;
+}
+.section-team .sociality .social .social1 {
+  border: solid 1px #84959f;
+  width: 25%;
+}
+.section-team .sociality:hover .photo {
+  border: solid 1px #18cfab;
+}
+.section-team .sociality:hover .photo img {
+  opacity: 1;
+}
+.section-team .sociality:hover .photo2 {
+  border: solid 1px #18cfab;
+}
+.section-team .sociality:hover .photo3 {
+  border: solid 1px #18cfab;
+}
+.section-team .sociality:hover .photo4 {
+  border: solid 1px #18cfab;
+}
+.section-team .sociality:hover .name {
+  background: #18cfab;
+}
+.section-team .sociality:hover .name h5 {
+  color: #2e4a5b;
+}
+.section-team .sociality:hover .social {
+  background: #18cfab;
+}

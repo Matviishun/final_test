@@ -1,0 +1,42 @@
+.section-instaling {
+  background: #40474b;
+}
+.section-instaling h2 {
+  color: #18cfab;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 130px;
+}
+.section-instaling h3 {
+  color: #d8d8d8;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  margin-bottom: 75px;
+}
+.section-instaling button {
+  background: #18cfab;
+  color: #ffffff;
+  border: solid white 5px;
+  border-radius: 4px;
+  height: 65px;
+  width: 165px;
+  margin-right: 28px;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  vertical-align: top;
+  margin-bottom: 125px;
+}
+.section-instaling button:hover {
+  background: #00cbf6;
+}
+.section-instaling button:active {
+  background: #00cbf6;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}

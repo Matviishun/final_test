@@ -1,0 +1,112 @@
+.section-creative {
+  background: #3c3c3c;
+  color: white;
+  overflow: hidden;
+  padding: 240px 0 220px;
+}
+.section-creative .container {
+  position: relative;
+}
+.blue-words {
+  color: #18cfab;
+}
+#site-name {
+  font-size: 79px;
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 84px;
+}
+.second-name {
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 1;
+}
+.third-name {
+  font-size: 34ps;
+  font-weight: light;
+  line-height: 84px;
+}
+.buttons {
+  font-size: 13px;
+  line-height: 31px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.buttons .button1 {
+  background: #18cfab;
+  border: solid white 5px;
+  border-radius: 4px;
+  height: 65px;
+  width: 165px;
+  margin-right: 28px;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  vertical-align: top;
+}
+.buttons .button1:hover {
+  background: #00cbf6;
+}
+.buttons .button1:active {
+  background: #00cbf6;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.center {
+  position: relative;
+}
+.slider {
+  /* position: absolute;
+    right: 15px;
+    top: 250px;
+    .image {
+        border: solid 3px black;
+        height: 105px;
+        width: 170px;
+        background: black;
+        position: absolute;
+    } */
+}
+.slider .buttons__item {
+  width: 64px;
+  height: 70px;
+  background: #3c4140;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.slider .buttons__item:before {
+  position: absolute;
+  content: '';
+  width: 14px;
+  height: 25px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: url(../../img/Creative-Landing-Page-Template-Free-PSD_07.png) center no-repeat;
+}
+.slider .buttons__item:hover {
+  background: #18cfab;
+  cursor: pointer;
+}
+.slider .buttons__item:hover:before {
+  transform: rotate(180deg);
+  background: url(../../img/Creative-Landing-Page-Template-Free-PSD_09.png) center no-repeat;
+}
+.slider .buttons__item_previous {
+  left: 0;
+}
+.slider .buttons__item_next {
+  right: 0;
+}
+.slider .buttons__item_next:before {
+  transform: rotate(180deg);
+}
+.slider .buttons__item_next:hover:before {
+  transform: rotate(0deg);
+}
