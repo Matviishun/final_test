@@ -1,6 +1,14 @@
 #header {
     background: #44433e;
     height: 120px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    opacity: 0.5;
+    &:hover {
+        opacity: 1;
+    }
     .container {
         display: flex;
         justify-content: space-between;
@@ -8,7 +16,14 @@
         .logo {
             height: 70px;
             width: 200px;
+            // .headerfixed {
+            //     position: fixed;
+            //     top: 0;
+            //     z-index: 1000;
+            //     width: 100%;
+            // }
         }
+        
         .header-nav {
             display: flex;
             justify-content: flex-end;
